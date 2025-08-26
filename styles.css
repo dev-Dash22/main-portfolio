@@ -31,3 +31,41 @@ section{
 
 
  
+.contacts{
+    display: flex;
+}
+
+
+.contacts:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.contacts:nth-child(3){
+    transition-delay: 400ms;
+}
+
+
+.contacts:nth-child(4){
+    transition-delay: 600ms;
+}
+
+.contacts:nth-child(5){
+    transition-delay: 800ms;
+}
+
+.button{
+     color: #2196f3;
+    padding: 10px 20px;
+    border: none;
+    transition: background 0.3s ease,
+    transform 0.3s ease;
+    background-color: white;
+}
+
+
+button:hover{
+    color: white;
+    background: #1769aa;
+    transform: scale(1.1);
+
+}
